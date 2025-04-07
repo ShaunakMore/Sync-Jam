@@ -1,12 +1,34 @@
-# React + Vite
+# 🎵 Sync Jam 🎧  
+_Listen together, vibe together._
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sync Jam is a web app that lets you create private rooms to **watch YouTube videos in perfect sync** with your friends. The host controls playback (play/pause/seek), and everyone in the room stays in harmony, no matter where they are. Built with **React + Vite**, synced through **WebSockets**, powered by **Firebase**, and groovin' with the **YouTube IFrame Player API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔗 Create and share a room link
+- ⏯️ Host-controlled playback (play, pause, seek)
+- 🎥 Load any YouTube video by video ID
+- 🌐 Real-time sync across all participants
+- 🔐 Secrets stay safe (API keys are stored in `.env`)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tech Stack
+
+| Tech            | Purpose                             |
+|-----------------|-------------------------------------|
+| React + Vite    | Frontend Framework + Dev Server     |
+| Firebase        | Room creation, storage & sync       |
+| WebSockets      | Real-time communication             |
+| YouTube IFrame API | Embedded video playback        |
+
+---
+
+## 🔧 Installation
+
+```bash
+git clone https://github.com/yourusername/sync-jam.git
+cd sync-jam
+npm install
